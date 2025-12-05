@@ -3,8 +3,8 @@
 
 ---
 
-## 🚀 Professional Brand Statement
-I am an analytical professional pivoting from **Data Scientist at Lombard Insurance** to a dedicated **Data Engineer** and **Cloud Developer**. I combine practical experience in production data science with intensive recent training in ETL pipeline design, containerization, and full-stack data solutions. I am driven by automating complex data workflows and am currently seeking roles where I can leverage my skills in Python, SQL, and Cloud platforms to build reliable, scalable data infrastructure.
+## 🚀 Professional Brand Statement (Data Scientist/Engineer)
+I am an analytical professional with a unique trajectory, having transitioned from **Data Scientist at Lombard Insurance** to specializing in **Data Engineering and Cloud Development**. My foundation in production data science gives me crucial insight into modeling needs and data quality requirements. I leverage this experience, combined with intensive training in **ETL pipeline design, containerization (Docker), and full-stack data solutions**, to build robust data infrastructure. I am driven by automating complex data workflows and am currently seeking **Data Engineer** roles where I can build reliable, scalable data platforms using Python, SQL, and Cloud technologies.
 
 [**View My Resume**](https://link-to-your-resume-pdf.com) | [**Email Me**](mailto:od.ramoitheki@gmail.com) | [**LinkedIn**](https://www.linkedin.com/in/olefile-daniel-ramoitheki)
 
