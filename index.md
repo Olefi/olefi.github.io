@@ -32,7 +32,7 @@ I am an analytical professional pivoting from **Data Scientist at Liberty Insura
 > * **Designed and implemented the entire Streamlit front-end UI**, focusing on an intuitive user experience for content creation.
 > * Integrated Python and external APIs to power the conversational content generation features.
 
-![AI Portfolio Assistant Screenshot](Link_to_Capstone_Image)
+![AI Portfolio Assistant Screenshot](https://github.com/Olefi/olefi.github.io/blob/1b9b3732926d9028dbd3546a559fa7304b5c877a/images/Screenshot%202025-12-05%20133630.png)
 [**View Code on GitHub**](https://github.com/dev-api-org/ai-portfolio-assistant) | [**Live Demo**](https://devfolio-ai2.streamlit.app/)   
 
 ---
@@ -42,7 +42,7 @@ I am an analytical professional pivoting from **Data Scientist at Liberty Insura
 
 > **Description:** This project demonstrates a comprehensive Python-based ETL pipeline designed for managing and processing core business data. It automates the extraction of raw data from multiple SQL tables, cleans/standardizes it using **pandas**, and then loads aggregated summary tables back into SQL Server for analytics and reporting (e.g., via Power BI).
 
-![Smart Data Manager Screenshot](Link_to_ETL_Project_Image)
+![Smart Data Manager Screenshot](https://github.com/Olefi/olefi.github.io/blob/1b9b3732926d9028dbd3546a559fa7304b5c877a/images/WhatsApp%20Image%202025-12-05%20at%2013.53.29.jpeg)
 [**View Code on GitHub**](https://github.com/dev-api-org/Smart-Data-Manager)
 
 ---
