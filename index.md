@@ -57,18 +57,6 @@ I am an analytical professional with a unique trajectory, having transitioned fr
 
 ---
 
-### 4. Resume Analyzer Microservice
-**Role:** AI/API Developer | **Tech:** Python, FastAPI, API Endpoints, JSON
-
-> **Description:** This project focuses on building a simple, high-performance API microservice using **FastAPI**. The service processes incoming resume data via an endpoint and returns structured JSON output. This demonstrates skills in API development, data serialization, and creating reusable backend components.
->
-> **Challenge & Outcome:** Ensuring low-latency response times for the API was key. **Outcome:** The service utilizes FastAPI's speed and asynchronous features, making it highly efficient for integration into larger recruiting platforms.
-
-![Resume Analyzer Screenshot](images/resume_analyzer_screenshot.png)
-[**View Code on GitHub**](https://github.com/dev-api-org/ai-app-containerization) | [**Live Demo**](Link_to_resume_analyzer_live_demo.com)
-
----
-
 ## 👋 About Me
 My journey into data began as a **Data Scientist at Lombard Insurance**, giving me first-hand experience in the production data lifecycle. I pivoted to Data Engineering to focus on building the reliable, scalable infrastructure that underpins successful analytics. When I'm not designing pipelines, I enjoy **[INSERT HOBBY HERE, e.g., trail running, reading]**, which helps me maintain a problem-solving mindset.
 
