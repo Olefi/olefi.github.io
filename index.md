@@ -56,7 +56,7 @@ I am an analytical professional with a unique trajectory, having transitioned fr
 ---
 
 ## 👋 About Me
-My journey into data began as a **Data Scientist at Lombard Insurance**, giving me first-hand experience in the production data lifecycle. I pivoted to Data Engineering to focus on building the reliable, scalable infrastructure that underpins successful analytics. When I'm not designing pipelines, I enjoy **[INSERT HOBBY HERE, e.g., trail running, reading]**, which helps me maintain a problem-solving mindset.
+My journey into data began as a **Data Scientist at Lombard Insurance**, giving me first-hand experience in the production data lifecycle. I pivoted to Data Engineering to focus on building the reliable, scalable infrastructure that underpins successful analytics. 
 
 ---
 
