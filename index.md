@@ -15,8 +15,8 @@ I am an analytical professional with a unique trajectory, having transitioned fr
 | Domain | Tools & Technologies |
 | :--- | :--- |
 | **Data Engineering** | Python, pandas, SQL Server, ETL Design, pyodbc |
-| **AI/ML & Apps** | Streamlit, APIs, Machine Learning Fundamentals, Front-end UI |
-| **DevOps & Cloud** | Docker, Containerization, GitHub Actions, Cloud Concepts |
+| **AI/ML & Apps** | Streamlit, APIs, Gradio, Machine Learning Fundamentals, Front-end UI |
+| **DevOps & Cloud** | Docker, Kubernetes, GitHub Actions, Cloud Concepts |
 | **Version Control** | Git, GitHub |
 
 ---
@@ -45,13 +45,29 @@ I am an analytical professional with a unique trajectory, having transitioned fr
 
 ---
 
-### 3. AI App Containerization with Docker
-**Role:** DevOps & Deployment Specialist | **Tech:** Docker, Python, Streamlit/FastAPI, GitHub
+### 3. 🚗 AI Car Inspector (Containerized Deployment)
+**Role:** DevOps & Deployment Specialist | **Tech:** Gradio, Gemini 2.0 Flash, Docker, Kubernetes
 
-> **Description:** This project solves dependency conflicts and deployment reliability issues by demonstrating the containerization of an AI-powered application using **Docker**. **Challenge:** Optimizing the Docker image size to reduce deployment time was crucial. **Outcome:** The final image is lightweight and portable, ensuring the AI app can be deployed consistently on any cloud platform with **zero dependency errors.**
+> **Description:** An AI-powered application that uses **Google's Gemini 2.0 Flash** to analyze car images and provide detailed information (make, model, year, etc.). It was built with **Gradio**, containerized with **Docker**, and deployed on a **Kubernetes** cluster.
+>
+> **Challenge & Outcome:** Deploying a multi-component AI application onto Kubernetes required detailed YAML configuration and volume mapping. **Outcome:** The application is highly resilient and scalable, demonstrating mastery of enterprise-level **DevOps and AI deployment.**
 
-![Docker Containerization Screenshot](images/docker_project_screenshot.png)
-[**View Code on GitHub**](https://github.com/dev-api-org/ai-app-containerization)
+![AI Car Inspector Screenshot](images/docker_project_screenshot.png)
+[**View Code on GitHub**](https://github.com/dev-api-org/ai-app-containerization) | [**Live Demo**](Link_to_AI_Car_Inspector_Live_Demo)
+
+---
+
+### 4. Resume Analyzer Microservice
+**Role:** AI/API Developer | **Tech:** Python, FastAPI, API Endpoints, JSON
+
+> **Description:** This project focuses on building a simple, high-performance API microservice using **FastAPI**. The service processes incoming resume data via an endpoint and returns structured JSON output. This demonstrates skills in API development, data serialization, and creating reusable backend components.
+>
+> **Challenge & Outcome:** Ensuring low-latency response times for the API was key. **Outcome:** The service utilizes FastAPI's speed and asynchronous features, making it highly efficient for integration into larger recruiting platforms.
+
+![Resume Analyzer Screenshot](images/resume_analyzer_screenshot.png)
+[**View Code on GitHub**](https://github.com/dev-api-org/ai-app-containerization) | [**Live Demo**](Link_to_resume_analyzer_live_demo.com)
+
+---
 
 ## 👋 About Me
 My journey into data began as a **Data Scientist at Lombard Insurance**, giving me first-hand experience in the production data lifecycle. I pivoted to Data Engineering to focus on building the reliable, scalable infrastructure that underpins successful analytics. When I'm not designing pipelines, I enjoy **[INSERT HOBBY HERE, e.g., trail running, reading]**, which helps me maintain a problem-solving mindset.
@@ -68,3 +84,9 @@ My journey into data began as a **Data Scientist at Lombard Insurance**, giving 
 *© 2025 Olefile Ramoitheki. Built with GitHub Pages.*
 
 ***
+
+
+
+Please commit the code above. The only mandatory document remaining is the reflection!
+
+Would you like me to draft the content for the required **`portfolio_reflection.md`** file now?
