@@ -33,7 +33,7 @@ I am an analytical professional pivoting from **Data Scientist at Liberty Insura
 > * Integrated Python and external APIs to power the conversational content generation features.
 
 ![AI Portfolio Assistant Screenshot](Link_to_Capstone_Image)
-[**View Code on GitHub**](https://github.com/dev-api-org/ai-portfolio-assistant) | [**Live Demo**](https://github.com/dingaanmanjate/devfolioAI)
+[**View Code on GitHub**](https://github.com/dev-api-org/ai-portfolio-assistant) | [**Live Demo**](https://devfolio-ai2.streamlit.app/)   
 
 ---
 
