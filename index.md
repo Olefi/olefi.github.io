@@ -4,7 +4,7 @@
 ---
 
 ## 🚀 Professional Brand Statement
-I am an analytical professional pivoting from **Data Scientist at Liberty Insurance** to a dedicated **Data Engineer** and **Cloud Developer**. I combine practical experience in production data science with intensive recent training in ETL pipeline design, containerization, and full-stack data solutions. I am driven by automating complex data workflows and am currently seeking roles where I can leverage my skills in Python, SQL, and Cloud platforms to build reliable, scalable data infrastructure.
+I am an analytical professional pivoting from **Data Scientist at Lombard Insurance** to a dedicated **Data Engineer** and **Cloud Developer**. I combine practical experience in production data science with intensive recent training in ETL pipeline design, containerization, and full-stack data solutions. I am driven by automating complex data workflows and am currently seeking roles where I can leverage my skills in Python, SQL, and Cloud platforms to build reliable, scalable data infrastructure.
 
 [**View My Resume**](https://link-to-your-resume-pdf.com) | [**Email Me**](mailto:od.ramoitheki@gmail.com) | [**LinkedIn**](https://www.linkedin.com/in/olefile-daniel-ramoitheki)
 
