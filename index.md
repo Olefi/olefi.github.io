@@ -1,13 +1,15 @@
 # Olefile Ramoitheki
 ### Data Engineer | Data Scientist | Cloud Development
 
+![Professional Headshot](images/ProilePic.jpeg)
+
 ---
 
 ## 🧭 Navigation
-* [Skills](#🛠-technical-skills)
-* [Project Portfolio](#📂-project-portfolio)
-* [About Me](#👋-about-me)
-* [Contact](#📬-contact)
+* [Skills](#skills-section)
+* [Project Portfolio](#portfolio-section)
+* [About Me](#about-me-section)
+* [Contact](#contact-section)
 
 ---
 
@@ -18,6 +20,7 @@ I am an analytical professional with a unique trajectory, having transitioned fr
 
 ---
 
+<a id="skills-section"></a>
 ## 🛠 Technical Skills
 | Domain | Tools & Technologies |
 | :--- | :--- |
@@ -28,6 +31,7 @@ I am an analytical professional with a unique trajectory, having transitioned fr
 
 ---
 
+<a id="portfolio-section"></a>
 ## 📂 Project Portfolio
 
 ### 1. Portfolio AI Assistance (Capstone Project)
@@ -64,11 +68,13 @@ I am an analytical professional with a unique trajectory, having transitioned fr
 
 ---
 
+<a id="about-me-section"></a>
 ## 👋 About Me
-My journey into data began as a **Data Scientist at Lombard Insurance**, giving me first-hand experience in the production data lifecycle. I pivoted to Data Engineering to focus on building the reliable, scalable infrastructure that underpins successful analytics.
+My journey into data began as a **Data Scientist at Lombard Insurance**, giving me first-hand experience in the production data lifecycle. I pivoted to Data Engineering to focus on building the reliable, scalable infrastructure that underpins successful analytics. When I'm not designing pipelines, I enjoy **[INSERT HOBBY HERE, e.g., trail running, reading]**, which helps me maintain a problem-solving mindset.
 
 ---
 
+<a id="contact-section"></a>
 ## 📬 Contact
 * **Email:** [od.ramoitheki@gmail.com](mailto:od.ramoitheki@gmail.com)
 * **LinkedIn:** [www.linkedin.com/in/olefile-daniel-ramoitheki](https://www.linkedin.com/in/olefile-daniel-ramoitheki)
@@ -78,5 +84,7 @@ My journey into data began as a **Data Scientist at Lombard Insurance**, giving 
 ---
 *© 2025 Olefile Ramoitheki. Built with GitHub Pages.*
 
----
+***
+
+
 
