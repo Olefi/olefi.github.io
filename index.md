@@ -23,7 +23,6 @@ I am an analytical professional with a unique trajectory, having transitioned fr
 <a id="skills-section"></a>
 ## 🛠 Technical Skills
 | Domain | Tools & Technologies |
-| :--- | :--- |
 | **Data Engineering** | Python, pandas, SQL Server, ETL Design, pyodbc |
 | **AI/ML & Apps** | Streamlit, APIs, Gradio, Gemini 2.0 Flash, Front-end UI |
 | **DevOps & Cloud** | Docker, Kubernetes, GitHub Actions, Cloud Concepts |
@@ -70,8 +69,7 @@ I am an analytical professional with a unique trajectory, having transitioned fr
 
 <a id="about-me-section"></a>
 ## 👋 About Me
-My journey into data began as a **Data Scientist at Lombard Insurance**, giving me first-hand experience in the production data lifecycle. I pivoted to Data Engineering to focus on building the reliable, scalable infrastructure that underpins successful analytics. When I'm not designing pipelines, I enjoy **[INSERT HOBBY HERE, e.g., trail running, reading]**, which helps me maintain a problem-solving mindset.
-
+My journey began as a **Data Scientist at Lombard Insurance**, providing critical, production-level insight into modeling needs and data quality assurance. This foundational experience inspired a strategic pivot to **Data Engineering**, where I now specialize in building the reliable, scalable cloud infrastructure that underpins advanced analytics. I focus on bridging the gap between complex analytical models and robust, enterprise-ready data systems, ensuring high performance from ingestion to deployment.
 ---
 
 <a id="contact-section"></a>
