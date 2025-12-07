@@ -51,7 +51,7 @@ I am an analytical professional with a unique trajectory, having transitioned fr
 > **Description:** This project demonstrates a comprehensive Python-based ETL pipeline designed for managing and processing core business data. **Challenge:** Handling schema drift and null values during the extraction phase required robust error-checking logic. **Outcome:** The pipeline now automatically standardizes messy source data, **reducing reporting latency from hours to minutes.**
 
 ![Smart Data Manager Screenshot](images/WhatsApp%20Image%202025-12-05%20at%2013.53.29.jpeg)
-[**View Code on GitHub**](https://github.com/dev-api-org/Smart-Data-Manager) | [**Live Demo**](Link_to_ETL_Live_Demo)
+[**View Code on GitHub**](https://github.com/dev-api-org/Smart-Data-Manager) | [**Live Demo**](https://apps.powerapps.com/play/e/9b639ea5-e8cb-e489-95b0-93bbac89f146/a/a3638322-b401-4e7c-96c2-7a82f76d6a7a?tenantId=a3f14f21-237f-4028-b978-425eb768a716&hint=58507349-040f-4bce-99bd-4d9baa8c8f42&sourcetime=1763540048012&source=portal)
 
 ---
 
