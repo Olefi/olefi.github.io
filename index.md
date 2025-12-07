@@ -63,7 +63,7 @@ I am an analytical professional with a unique trajectory, having transitioned fr
 > **Challenge & Outcome:** Deploying a multi-component AI application onto Kubernetes required detailed YAML configuration and volume mapping. **Outcome:** The application is highly resilient and scalable, demonstrating mastery of enterprise-level **DevOps and AI deployment.**
 
 ![AI Car Inspector Screenshot](images/car%20ins.png)
-[**View Code on GitHub**](https://github.com/dev-api-org/ai-app-containerization) | [**Live Demo**](Link_to_AI_Car_Inspector_Live_Demo)
+[**View Code on GitHub**](https://github.com/dev-api-org/ai-app-containerization) | [**Live Demo**](http://54.85.83.99/)
 
 ---
 
