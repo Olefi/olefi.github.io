@@ -80,6 +80,3 @@ My journey into data began as a **Data Scientist at Lombard Insurance**, giving 
 
 ---
 
-3.  **Reflection Document:** Create the final required document.
-
-Would you like me to help you draft the content for the required **`portfolio_reflection.md`** file now?
