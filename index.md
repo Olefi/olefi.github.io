@@ -16,7 +16,7 @@
 ## 🚀 Professional Brand Statement
 I am an analytical professional with a unique trajectory, having transitioned from **Data Scientist at Lombard Insurance** to specializing in **Data Engineering and Cloud Development**. My foundation in production data science gives me crucial insight into modeling needs and data quality requirements. I leverage this experience, combined with intensive training in **ETL pipeline design, containerization (Docker), and full-stack data solutions**, to build robust data infrastructure. I am driven by automating complex data workflows and am currently seeking **Data Engineer** roles where I can build reliable, scalable data platforms using Python, SQL, and Cloud technologies.
 
-[**View My Resume**](PASTE_YOUR_RESUME_SHARABLE_URL_HERE) | [**Email Me**](mailto:od.ramoitheki@gmail.com) | [**LinkedIn**](https://www.linkedin.com/in/olefile-daniel-ramoitheki)
+[**View My Resume**](https://drive.google.com/file/d/1a-_pMt0mZDkUJIHqKcsECG6QOwdZWVxw/view?usp=drive_link) | [**Email Me**](mailto:od.ramoitheki@gmail.com) | [**LinkedIn**](https://www.linkedin.com/in/olefile-daniel-ramoitheki)
 
 ---
 
@@ -79,12 +79,9 @@ My journey into data began as a **Data Scientist at Lombard Insurance**, giving 
 * **Email:** [od.ramoitheki@gmail.com](mailto:od.ramoitheki@gmail.com)
 * **LinkedIn:** [www.linkedin.com/in/olefile-daniel-ramoitheki](https://www.linkedin.com/in/olefile-daniel-ramoitheki)
 * **GitHub:** [https://github.com/Olefi](https://github.com/Olefi)
-* **Resume:** [PASTE_YOUR_RESUME_SHARABLE_URL_HERE](PASTE_YOUR_RESUME_SHARABLE_URL_HERE)
+* **Resume:** [https://drive.google.com/file/d/1a-_pMt0mZDkUJIHqKcsECG6QOwdZWVxw/view?usp=drive_link](https://drive.google.com/file/d/1a-_pMt0mZDkUJIHqKcsECG6QOwdZWVxw/view?usp=drive_link)
 
 ---
 *© 2025 Olefile Ramoitheki. Built with GitHub Pages.*
 
 ***
-
-
-
