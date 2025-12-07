@@ -3,6 +3,14 @@
 
 ---
 
+## 🧭 Navigation
+* [Skills](#🛠-technical-skills)
+* [Project Portfolio](#📂-project-portfolio)
+* [About Me](#👋-about-me)
+* [Contact](#📬-contact)
+
+---
+
 ## 🚀 Professional Brand Statement
 I am an analytical professional with a unique trajectory, having transitioned from **Data Scientist at Lombard Insurance** to specializing in **Data Engineering and Cloud Development**. My foundation in production data science gives me crucial insight into modeling needs and data quality requirements. I leverage this experience, combined with intensive training in **ETL pipeline design, containerization (Docker), and full-stack data solutions**, to build robust data infrastructure. I am driven by automating complex data workflows and am currently seeking **Data Engineer** roles where I can build reliable, scalable data platforms using Python, SQL, and Cloud technologies.
 
@@ -11,7 +19,6 @@ I am an analytical professional with a unique trajectory, having transitioned fr
 ---
 
 ## 🛠 Technical Skills
-
 | Domain | Tools & Technologies |
 | :--- | :--- |
 | **Data Engineering** | Python, pandas, SQL Server, ETL Design, pyodbc |
@@ -26,7 +33,7 @@ I am an analytical professional with a unique trajectory, having transitioned fr
 ### 1. Portfolio AI Assistance (Capstone Project)
 **Role:** Front-End & System Designer | **Tech:** Streamlit, Python, APIs
 
-> **The Goal:** To solve the initial content generation hurdle for job seekers by creating an intelligent Streamlit application. The app helps users draft professional portfolio content, project summaries, and learning reflections through natural language conversation.
+> **The Goal:** To solve the initial content generation hurdle for job seekers by creating an intelligent Streamlit application. The app helps users draft professional portfolio content, project summaries, and learning reflections through natural conversation.
 >
 > **Challenge & Outcome:** Ensuring the AI's output was consistently professional required extensive prompt engineering and testing. The final app delivers reliable, ready-to-use portfolio summaries, **increasing user efficiency by over 80%.**
 
@@ -71,4 +78,8 @@ My journey into data began as a **Data Scientist at Lombard Insurance**, giving 
 ---
 *© 2025 Olefile Ramoitheki. Built with GitHub Pages.*
 
-***
+---
+
+3.  **Reflection Document:** Create the final required document.
+
+Would you like me to help you draft the content for the required **`portfolio_reflection.md`** file now?
