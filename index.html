@@ -5,321 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olefile Ramoitheki | Data Engineer</title>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-            margin: 0;
-            padding-top: 70px; /* Space for the fixed header */
-            color: #333;
-            background-color: #f8f8f8;
-            scroll-behavior: smooth;
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
-        /* Fixed Navigation Bar Styling */
-        .fixed-header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            background-color: #2c3e50; /* Dark blue/charcoal */
-            color: white;
-            padding: 15px 30px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            z-index: 1000;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .header-title {
-            font-size: 1.5em;
-            font-weight: bold;
-            color: white;
-            text-decoration: none;
-        }
-
-        .nav-link {
-            color: white;
-            text-decoration: none;
-            margin-left: 25px;
-            font-size: 1em;
-            transition: color 0.3s;
-        }
-
-        .nav-link:hover {
-            color: #1abc9c; /* Teal hover color */
-        }
-
-        /* Main Content Styling */
-        .container {
-            width: 90%;
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 20px 0;
-        }
-
-        section {
-            padding: 60px 0;
-            margin-bottom: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-        }
-
-        h2 {
-            font-size: 2em;
-            color: #2c3e50;
-            border-bottom: 3px solid #1abc9c; /* Teal underline */
-            padding-bottom: 10px;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-
-        /* Brand Statement & Header Image */
-        #home {
-            padding-top: 20px;
-            text-align: center;
-        }
-        
-        #home img {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        
-        .brand-statement {
-            font-size: 1.2em;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            color: #555;
-        }
-
-        /* Project Grid Styling (Simple responsive layout) */
-        .project-grid {
-            display: grid;
-            grid-template-columns: 1fr; /* Single column for small screens */
-            gap: 40px;
-            padding: 0 20px;
-        }
-        
-        .project-card {
-            border: 1px solid #ddd;
-            border-radius: 6px;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-            transition: transform 0.2s;
-        }
-        
-        .project-card:hover {
-            transform: translateY(-5px);
-        }
-        
-        .project-card h3 {
-            color: #1abc9c;
-            border-bottom: 1px dashed #eee;
-            padding-bottom: 10px;
-        }
-
-        .project-card img {
-            width: 100%;
-            max-height: 250px;
-            object-fit: cover;
-            border-radius: 4px;
-            margin-top: 15px;
-        }
-
-        /* Skills Table Styling */
-        #skills table {
-            width: 80%;
-            margin: 0 auto;
-            border-collapse: collapse;
-        }
-        #skills th, #skills td {
-            padding: 12px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-        #skills th {
-            background-color: #f4f4f4;
-            color: #2c3e50;
-        }
-
-        /* Contact Section Styling */
-        #contact {
-            text-align: center;
-            padding-bottom: 40px;
-        }
-        
-        .social-icons img {
-            height: 30px;
-            margin: 0 10px;
-            transition: opacity 0.3s;
-        }
-        
-        .social-icons a {
-            text-decoration: none;
-            display: inline-block;
-        }
-        
-        .social-icons img:hover {
-            opacity: 0.7;
-        }
-
-        /* Media Query for larger screens (two columns for projects) */
-        @media (min-width: 768px) {
-            .project-grid {
-                grid-template-columns: 1fr 1fr; 
-            }
-            .header-title {
-                font-size: 1.8em;
-            }
-        }
-    </style>
-</head>
-<body>
-
-    <header class="fixed-header">
-        <a href="#home" class="header-title">Olefile Ramoitheki</a>
-        <nav>
-            <a href="#home" class="nav-link">Home</a>
-            <a href="#projects" class="nav-link">Projects</a>
-            <a href="#skills" class="nav-link">Skills</a>
-            <a href="#about" class="nav-link">About Me</a>
-            <a href="#contact" class="nav-link">Contact</a>
-        </nav>
-    </header>
-
-    <div class="container">
-        
-        <section id="home">
-            <img src="images/ProilePic.jpeg" alt="Professional Headshot">
-            <h1>Data Engineer | Data Scientist | Cloud Development</h1>
-            <div class="brand-statement">
-                <p>I am an analytical professional with a unique trajectory, having transitioned from **Data Scientist at Lombard Insurance** to specializing in **Data Engineering and Cloud Development**. My foundation in production data science gives me crucial insight into modeling needs and data quality requirements. I leverage this experience, combined with intensive training in **ETL pipeline design, containerization (Docker), and full-stack data solutions**, to build robust data infrastructure. I am driven by automating complex data workflows and am currently seeking **Data Engineer** roles where I can build reliable, scalable data platforms using Python, SQL, and Cloud technologies.</p>
-                <div style="margin-top: 30px;">
-                    <a href="https://drive.google.com/file/d/1a-_pMt0mZDkUJIHqKcsECG6QOwdZWVxw/view?usp=drive_link" target="_blank" style="margin: 0 10px; color: #2c3e50; text-decoration: underline;">View My Resume</a>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects">
-            <h2>📂 Project Portfolio</h2>
-            <div class="project-grid">
-
-                <div class="project-card">
-                    <h3>1. Portfolio AI Assistance (Capstone)</h3>
-                    <p><strong>Role:</strong> Front-End & System Designer | <strong>Tech:</strong> Streamlit, Python, APIs</p>
-                    <p style="font-size: 0.9em; margin-top: 10px;">To solve the initial content generation hurdle for job seekers by creating an intelligent Streamlit application. **Outcome:** Delivers reliable, ready-to-use portfolio summaries, **increasing user efficiency by over 80%.**</p>
-                    <img src="images/Screenshot%202025-12-05%20133630.png" alt="AI Portfolio Assistant Screenshot">
-                    <div style="margin-top: 15px;">
-                        <a href="https://github.com/dev-api-org/ai-portfolio-assistant" target="_blank">View Code on GitHub</a> | 
-                        <a href="https://devfolio-ai2.streamlit.app/" target="_blank">Live Demo</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <h3>2. Smart Data Manager – Python ETL Pipeline</h3>
-                    <p><strong>Role:</strong> ETL Pipeline Developer | <strong>Tech:</strong> Python, pandas, pyodbc, SQL Server</p>
-                    <p style="font-size: 0.9em; margin-top: 10px;">Demonstrates a comprehensive Python-based ETL pipeline for managing business data. **Outcome:** Automatically standardizes messy source data, **reducing reporting latency from hours to minutes.**</p>
-                    <img src="images/WhatsApp%20Image%202025-12-05%20at%2013.53.29.jpeg" alt="Smart Data Manager Screenshot">
-                    <div style="margin-top: 15px;">
-                        <a href="https://github.com/dev-api-org/Smart-Data-Manager" target="_blank">View Code on GitHub</a> | 
-                        <a href="https://apps.powerapps.com/play/e/9b639ea5-e8cb-e489-95b0-93bbac89f146/a/a3638322-b401-4e7c-96c2-7a82f76d6a7a?tenantId=a3f14f21-237f-4028-b978-425eb768a716&hint=58507349-040f-4bce-99bd-4d9baa8c8f42&sourcetime=1763540048012&source=portal" target="_blank">Live Demo</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <h3>3. 🚗 AI Car Inspector (Deployment)</h3>
-                    <p><strong>Role:</strong> DevOps & Deployment Specialist | <strong>Tech:</strong> Gradio, Gemini 2.0 Flash, Docker, Kubernetes</p>
-                    <p style="font-size: 0.9em; margin-top: 10px;">AI app using **Gemini 2.0 Flash** for car image analysis. Containerized with **Docker** and deployed on a **Kubernetes** cluster. **Outcome:** Application is highly resilient and scalable, demonstrating mastery of enterprise-level DevOps.</p>
-                    <img src="images/car%20ins.png" alt="AI Car Inspector Screenshot">
-                    <div style="margin-top: 15px;">
-                        <a href="https://github.com/dev-api-org/ai-app-containerization" target="_blank">View Code on GitHub</a> | 
-                        <a href="http://54.85.83.99/" target="_blank">Live Demo</a>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <section id="skills">
-            <h2>🛠 Technical Skills</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Domain</th>
-                        <th>Tools & Technologies</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><strong>Data Engineering</strong></td>
-                        <td>Python, pandas, SQL Server, ETL Design, pyodbc</td>
-                    </tr>
-                    <tr>
-                        <td><strong>AI/ML & Apps</strong></td>
-                        <td>Streamlit, APIs, Gradio, Gemini 2.0 Flash, Front-end UI</td>
-                    </tr>
-                    <tr>
-                        <td><strong>DevOps & Cloud</strong></td>
-                        <td>Docker, Kubernetes, GitHub Actions, Cloud Concepts</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Version Control</strong></td>
-                        <td>Git, GitHub</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-        
-        <section id="about">
-            <h2>👋 About Me</h2>
-            <div class="brand-statement">
-                <p>My journey began as a **Data Scientist at Lombard Insurance**, providing critical, production-level insight into modeling needs and data quality assurance. This foundational experience inspired a strategic pivot to **Data Engineering**, where I now specialize in building the reliable, scalable cloud infrastructure that underpins advanced analytics. I focus on bridging the gap between complex analytical models and robust, enterprise-ready data systems, ensuring high performance from ingestion to deployment.</p>
-            </div>
-        </section>
-
-        <section id="contact">
-            <h2>📬 Contact & Socials</h2>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/olefile-daniel-ramoitheki" title="LinkedIn" target="_blank">
-                    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn">
-                </a>
-                <a href="https://github.com/Olefi" title="GitHub" target="_blank">
-                    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub">
-                </a>
-                <a href="mailto:od.ramoitheki@gmail.com" title="Email" target="_blank">
-                    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Email">
-                </a>
-                <a href="https://drive.google.com/file/d/1a-_pMt0mZDkUJIHqKcsECG6QOwdZWVxw/view?usp=drive_link" title="Resume PDF" target="_blank">
-                    <img src="https://img.shields.io/badge/Resume-2ECC71?style=flat&logo=adobeacrobatreader&logoColor=white" alt="Resume">
-                </a>
-                <a href="https://www.facebook.com/your-profile" title="Facebook" target="_blank">
-                    <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook">
-                </a>
-                <a href="https://www.instagram.com/your-profile" title="Instagram" target="_blank">
-                    <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram">
-                </a>
-            </div>
-        </section>
-
-    </div> <footer style="text-align: center; padding: 20px; font-size: 0.8em; color: #777;">
-        © 2025 Olefile Ramoitheki. Built with GitHub Pages.
-    </footer>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olefile Ramoitheki | Data Engineer</title>
-    <style>
         :root {
             --color-primary: #1abc9c; /* Teal Accent */
             --color-dark: #2c3e50; /* Primary Dark Blue */
@@ -386,11 +76,24 @@
             background-color: var(--color-secondary); /* Section Background */
             border-radius: 8px;
             box-shadow: 0 1px 3px var(--color-shadow);
+            
+            /* --- ANIMATION ADDED HERE --- */
+            animation: fadeIn 1.0s ease-out forwards;
+            opacity: 0;
+            /* Staggering the load order */
+            animation-delay: var(--animation-delay, 0s); 
         }
+        
+        /* Set initial delays for sections */
+        #home { --animation-delay: 0.1s; }
+        #projects { --animation-delay: 0.3s; }
+        #skills { --animation-delay: 0.5s; }
+        #about { --animation-delay: 0.7s; }
+        #contact { --animation-delay: 0.9s; }
 
         h1, h2, h3 {
             color: var(--color-light);
-            font-weight: 300; /* Lighter font weight for modern look */
+            font-weight: 300; 
         }
         
         h2 {
@@ -402,7 +105,7 @@
         }
         
         a {
-            color: var(--color-primary); /* Default link color (Teal) */
+            color: var(--color-primary); 
             text-decoration: none;
             transition: color 0.3s;
         }
@@ -429,7 +132,7 @@
             font-size: 1.2em;
             max-width: 800px;
             margin: 0 auto;
-            color: #bdc3c7; /* Lighter text for main body */
+            color: #bdc3c7; 
         }
 
         /* Project Grid Styling */
@@ -532,7 +235,7 @@
             <img src="images/ProilePic.jpeg" alt="Professional Headshot">
             <h1>Data Engineer | Data Scientist | Cloud Development</h1>
             <div class="brand-statement">
-                <p>I am an analytical professional with a unique trajectory, having transitioned from **Data Scientist at Lombard Insurance** to specializing in **Data Engineering and Cloud Development**. My foundation in production data science gives me crucial insight into modeling needs and data quality requirements. I leverage this experience, combined with intensive training in **ETL pipeline design, containerization (Docker), and full-stack data solutions**, to build robust data infrastructure. I am driven by automating complex data workflows and am currently seeking **Data Engineer** roles where I can build reliable, scalable data platforms using Python, SQL, and Cloud technologies.</p>
+                <p>I am an analytical professional with a unique trajectory, having transitioned from <strong>Data Scientist at Lombard Insurance</strong> to specializing in <strong>Data Engineering and Cloud Development</strong>. My foundation in production data science gives me crucial insight into modeling needs and data quality requirements. I leverage this experience, combined with intensive training in <strong>ETL pipeline design, containerization (Docker), and full-stack data solutions</strong>, to build robust data infrastructure. I am driven by automating complex data workflows and am currently seeking <strong>Data Engineer</strong> roles where I can build reliable, scalable data platforms using Python, SQL, and Cloud technologies.</p>
                 <div style="margin-top: 30px;">
                     <a href="https://drive.google.com/file/d/1a-_pMt0mZDkUJIHqKcsECG6QOwdZWVxw/view?usp=drive_link" target="_blank" style="margin: 0 10px; color: var(--color-primary); text-decoration: underline;">View My Resume</a>
                 </div>
@@ -546,7 +249,7 @@
                 <div class="project-card">
                     <h3>1. Portfolio AI Assistance (Capstone)</h3>
                     <p style="color: #bdc3c7;"><strong>Role:</strong> Front-End & System Designer | <strong>Tech:</strong> Streamlit, Python, APIs</p>
-                    <p style="font-size: 0.9em; margin-top: 10px; color: #bdc3c7;">To solve the initial content generation hurdle for job seekers by creating an intelligent Streamlit application. **Outcome:** Delivers reliable, ready-to-use portfolio summaries, **increasing user efficiency by over 80%.**</p>
+                    <p style="font-size: 0.9em; margin-top: 10px; color: #bdc3c7;">To solve the initial content generation hurdle for job seekers by creating an intelligent Streamlit application. <strong>Outcome:</strong> Delivers reliable, ready-to-use portfolio summaries, <strong>increasing user efficiency by over 80%.</strong></p>
                     <img src="images/Screenshot%202025-12-05%20133630.png" alt="AI Portfolio Assistant Screenshot">
                     <div style="margin-top: 15px;">
                         <a href="https://github.com/dev-api-org/ai-portfolio-assistant" target="_blank">View Code on GitHub</a> | 
@@ -557,7 +260,7 @@
                 <div class="project-card">
                     <h3>2. Smart Data Manager – Python ETL Pipeline</h3>
                     <p style="color: #bdc3c7;"><strong>Role:</strong> ETL Pipeline Developer | <strong>Tech:</strong> Python, pandas, pyodbc, SQL Server</p>
-                    <p style="font-size: 0.9em; margin-top: 10px; color: #bdc3c7;">Demonstrates a comprehensive Python-based ETL pipeline for managing business data. **Outcome:** Automatically standardizes messy source data, **reducing reporting latency from hours to minutes.**</p>
+                    <p style="font-size: 0.9em; margin-top: 10px; color: #bdc3c7;">Demonstrates a comprehensive Python-based ETL pipeline for managing business data. <strong>Challenge:</strong> Handling schema drift and null values during the extraction phase required robust error-checking logic. <strong>Outcome:</strong> Automatically standardizes messy source data, <strong>reducing reporting latency from hours to minutes.</strong></p>
                     <img src="images/WhatsApp%20Image%202025-12-05%20at%2013.53.29.jpeg" alt="Smart Data Manager Screenshot">
                     <div style="margin-top: 15px;">
                         <a href="https://github.com/dev-api-org/Smart-Data-Manager" target="_blank">View Code on GitHub</a> | 
@@ -567,8 +270,8 @@
 
                 <div class="project-card">
                     <h3>3. 🚗 AI Car Inspector (Deployment)</h3>
-                    <p style="color: #bdc3c7;"><strong>Role:</strong> DevOps & Deployment Specialist | <strong>Tech:** Gradio, Gemini 2.0 Flash, Docker, Kubernetes</p>
-                    <p style="font-size: 0.9em; margin-top: 10px; color: #bdc3c7;">AI app using **Gemini 2.0 Flash** for car image analysis. Containerized with **Docker** and deployed on a **Kubernetes** cluster. **Outcome:** Application is highly resilient and scalable, demonstrating mastery of enterprise-level DevOps.</p>
+                    <p style="color: #bdc3c7;"><strong>Role:</strong> DevOps & Deployment Specialist | <strong>Tech:</strong> Gradio, Gemini 2.0 Flash, Docker, Kubernetes</p>
+                    <p style="font-size: 0.9em; margin-top: 10px; color: #bdc3c7;">AI app using <strong>Gemini 2.0 Flash</strong> for car image analysis. Containerized with <strong>Docker</strong> and deployed on a <strong>Kubernetes</strong> cluster. <strong>Challenge:</strong> Deploying a multi-component AI application onto Kubernetes required detailed YAML configuration and volume mapping. <strong>Outcome:</strong> Application is highly resilient and scalable, demonstrating mastery of enterprise-level DevOps.</p>
                     <img src="images/car%20ins.png" alt="AI Car Inspector Screenshot">
                     <div style="margin-top: 15px;">
                         <a href="https://github.com/dev-api-org/ai-app-containerization" target="_blank">View Code on GitHub</a> | 
@@ -612,7 +315,7 @@
         <section id="about">
             <h2>👋 About Me</h2>
             <div class="brand-statement">
-                <p>My journey began as a **Data Scientist at Lombard Insurance**, providing critical, production-level insight into modeling needs and data quality assurance. This foundational experience inspired a strategic pivot to **Data Engineering**, where I now specialize in building the reliable, scalable cloud infrastructure that underpins advanced analytics. I focus on bridging the gap between complex analytical models and robust, enterprise-ready data systems, ensuring high performance from ingestion to deployment.</p>
+                <p>My journey began as a <strong>Data Scientist at Lombard Insurance</strong>, providing critical, production-level insight into modeling needs and data quality assurance. This foundational experience inspired a strategic pivot to <strong>Data Engineering</strong>, where I now specialize in building the reliable, scalable cloud infrastructure that underpins advanced analytics. I focus on bridging the gap between complex analytical models and robust, enterprise-ready data systems, ensuring high performance from ingestion to deployment.</p>
             </div>
         </section>
 
