@@ -1,159 +1,107 @@
 # Olefile Ramoitheki
 ### Data Engineer | Data Scientist | Cloud Development
 
-<style>
-  .content-section {
-    display: none;
-    padding: 20px 0;
-  }
-  /* Ensure the default 'home' view is visible on load */
-  #home-section {
-    display: block;
-  }
-  .nav-link {
-    padding: 10px 15px;
-    text-decoration: none;
-    color: #007bff;
-    font-weight: bold;
-    border-right: 1px solid #ccc;
-    cursor: pointer; /* Makes it feel clickable */
-  }
-  .nav-link:hover {
-    color: #0056b3;
-  }
-</style>
-
----
-
 ![Professional Headshot](images/ProilePic.jpeg)
 
 ---
 
 <div align="center">
-  <span class="nav-link" data-target="home-section">🏠 Home</span>
-  <span class="nav-link" data-target="projects-section">📂 Projects</span>
-  <span class="nav-link" data-target="skills-section">🛠️ Skills</span>
-  <span class="nav-link" data-target="about-me-section">👋 About</span>
-  <span class="nav-link" data-target="contact-section" style="border-right: none;">📬 Contact</span>
+  <a href="#portfolio-section" style="padding: 10px 15px; text-decoration: none; color: #007bff; font-weight: bold; border-right: 1px solid #ccc;">📂 Projects</a>
+  <a href="#skills-section" style="padding: 10px 15px; text-decoration: none; color: #007bff; font-weight: bold; border-right: 1px solid #ccc;">🛠️ Skills</a>
+  <a href="#about-me-section" style="padding: 10px 15px; text-decoration: none; color: #007bff; font-weight: bold; border-right: 1px solid #ccc;">👋 About</a>
+  <a href="#contact-section" style="padding: 10px 15px; text-decoration: none; color: #007bff; font-weight: bold;">📬 Contact</a>
 </div>
 ---
 
-<div id="home-section" class="content-section">
-  <h2>🚀 Professional Brand Statement</h2>
-  <p>I am an analytical professional with a unique trajectory, having transitioned from **Data Scientist at Lombard Insurance** to specializing in **Data Engineering and Cloud Development**. My foundation in production data science gives me crucial insight into modeling needs and data quality requirements. I leverage this experience, combined with intensive training in **ETL pipeline design, containerization (Docker), and full-stack data solutions**, to build robust data infrastructure. I am driven by automating complex data workflows and am currently seeking **Data Engineer** roles where I can build reliable, scalable data platforms using Python, SQL, and Cloud technologies.</p>
-  
-  <div align="center" style="margin-top: 20px;">
-    [**View My Resume**](https://drive.google.com/file/d/1a-_pMt0mZDkUJIHqKcsECG6QOwdZWVxw/view?usp=drive_link) | [**Email Me**](mailto:od.ramoitheki@gmail.com) | [**LinkedIn**](https://www.linkedin.com/in/olefile-daniel-ramoitheki)
-  </div>
-</div>
+## 🚀 Professional Brand Statement
+I am an analytical professional with a unique trajectory, having transitioned from **Data Scientist at Lombard Insurance** to specializing in **Data Engineering and Cloud Development**. My foundation in production data science gives me crucial insight into modeling needs and data quality requirements. I leverage this experience, combined with intensive training in **ETL pipeline design, containerization (Docker), and full-stack data solutions**, to build robust data infrastructure. I am driven by automating complex data workflows and am currently seeking **Data Engineer** roles where I can build reliable, scalable data platforms using Python, SQL, and Cloud technologies.
 
-<div id="skills-section" class="content-section">
-  <h2>🛠 Technical Skills</h2>
-  <hr>
-  | Domain | Tools & Technologies |
-  | :--- | :--- |
-  | **Data Engineering** | Python, pandas, SQL Server, ETL Design, pyodbc |
-  | **AI/ML & Apps** | Streamlit, APIs, Gradio, Gemini 2.0 Flash, Front-end UI |
-  | **DevOps & Cloud** | Docker, Kubernetes, GitHub Actions, Cloud Concepts |
-  | **Version Control** | Git, GitHub |
-</div>
+[**View My Resume**](https://drive.google.com/file/d/1a-_pMt0mZDkUJIHqKcsECG6QOwdZWVxw/view?usp=drive_link) | [**Email Me**](mailto:od.ramoitheki@gmail.com) | [**LinkedIn**](https://www.linkedin.com/in/olefile-daniel-ramoitheki)
 
-<div id="projects-section" class="content-section">
-  <h2>📂 Project Portfolio</h2>
-  <hr>
-  
-  ### 1. Portfolio AI Assistance (Capstone Project)
-  **Role:** Front-End & System Designer | **Tech:** Streamlit, Python, APIs
+---
 
-  > **The Goal:** To solve the initial content generation hurdle for job seekers by creating an intelligent Streamlit application. The app helps users draft professional portfolio content, project summaries, and learning reflections through natural conversation.
-  >
-  > **Challenge & Outcome:** Ensuring the AI's output was consistently professional required extensive prompt engineering and testing. The final app delivers reliable, ready-to-use portfolio summaries, **increasing user efficiency by over 80%.**
+<a id="skills-section"></a>
+## 🛠 Technical Skills
+| Domain | Tools & Technologies |
+| :--- | :--- |
+| **Data Engineering** | Python, pandas, SQL Server, ETL Design, pyodbc |
+| **AI/ML & Apps** | Streamlit, APIs, Gradio, Gemini 2.0 Flash, Front-end UI |
+| **DevOps & Cloud** | Docker, Kubernetes, GitHub Actions, Cloud Concepts |
+| **Version Control** | Git, GitHub |
 
-  ![AI Portfolio Assistant Screenshot](images/Screenshot%202025-12-05%20133630.png)
-  [**View Code on GitHub**](https://github.com/dev-api-org/ai-portfolio-assistant) | [**Live Demo**](https://devfolio-ai2.streamlit.app/)   
+---
 
-  ---
+<a id="portfolio-section"></a>
+## 📂 Project Portfolio
 
-  ### 2. Smart Data Manager – Python ETL Pipeline
-  **Role:** ETL Pipeline Developer | **Tech:** Python, pandas, pyodbc, SQL Server
+### 1. Portfolio AI Assistance (Capstone Project)
+**Role:** Front-End & System Designer | **Tech:** Streamlit, Python, APIs
 
-  > **Description:** This project demonstrates a comprehensive Python-based ETL pipeline designed for managing and processing core business data. **Challenge:** Handling schema drift and null values during the extraction phase required robust error-checking logic. **Outcome:** The pipeline now automatically standardizes messy source data, **reducing reporting latency from hours to minutes.**
+> **The Goal:** To solve the initial content generation hurdle for job seekers by creating an intelligent Streamlit application. The app helps users draft professional portfolio content, project summaries, and learning reflections through natural conversation.
+>
+> **Challenge & Outcome:** Ensuring the AI's output was consistently professional required extensive prompt engineering and testing. The final app delivers reliable, ready-to-use portfolio summaries, **increasing user efficiency by over 80%.**
 
-  ![Smart Data Manager Screenshot](images/WhatsApp%20Image%202025-12-05%20at%2013.53.29.jpeg)
-  [**View Code on GitHub**](https://github.com/dev-api-org/Smart-Data-Manager) | [**Live Demo**](https://apps.powerapps.com/play/e/9b639ea5-e8cb-e489-95b0-93bbac89f146/a/a3638322-b401-4e7c-96c2-7a82f76d6a7a?tenantId=a3f14f21-237f-4028-b978-425eb768a716&hint=58507349-040f-4bce-99bd-4d9baa8c8f42&sourcetime=1763540048012&source=portal)
+![AI Portfolio Assistant Screenshot](images/Screenshot%202025-12-05%20133630.png)
+[**View Code on GitHub**](https://github.com/dev-api-org/ai-portfolio-assistant) | [**Live Demo**](https://devfolio-ai2.streamlit.app/)   
 
-  ---
+---
 
-  ### 3. 🚗 AI Car Inspector (Containerized Deployment)
-  **Role:** DevOps & Deployment Specialist | **Tech:** Gradio, Gemini 2.0 Flash, Docker, Kubernetes
+### 2. Smart Data Manager – Python ETL Pipeline
+**Role:** ETL Pipeline Developer | **Tech:** Python, pandas, pyodbc, SQL Server
 
-  > **Description:** An AI-powered application that uses **Google's Gemini 2.0 Flash** to analyze car images and provide detailed information (make, model, year, etc.). It was built with **Gradio**, containerized with **Docker**, and deployed on a **Kubernetes** cluster.
-  >
-  > **Challenge & Outcome:** Deploying a multi-component AI application onto Kubernetes required detailed YAML configuration and volume mapping. **Outcome:** The application is highly resilient and scalable, demonstrating mastery of enterprise-level **DevOps and AI deployment.**
+> **Description:** This project demonstrates a comprehensive Python-based ETL pipeline designed for managing and processing core business data. **Challenge:** Handling schema drift and null values during the extraction phase required robust error-checking logic. **Outcome:** The pipeline now automatically standardizes messy source data, **reducing reporting latency from hours to minutes.**
 
-  ![AI Car Inspector Screenshot](images/car%20ins.png)
-  [**View Code on GitHub**](https://github.com/dev-api-org/ai-app-containerization) | [**Live Demo**](http://54.85.83.99/)
-</div>
+![Smart Data Manager Screenshot](images/WhatsApp%20Image%202025-12-05%20at%2013.53.29.jpeg)
+[**View Code on GitHub**](https://github.com/dev-api-org/Smart-Data-Manager) | [**Live Demo**](https://apps.powerapps.com/play/e/9b639ea5-e8cb-e489-95b0-93bbac89f146/a/a3638322-b401-4e7c-96c2-7a82f76d6a7a?tenantId=a3f14f21-237f-4028-b978-425eb768a716&hint=58507349-040f-4bce-99bd-4d9baa8c8f42&sourcetime=1763540048012&source=portal)
 
-<div id="about-me-section" class="content-section">
-  <h2>👋 About Me</h2>
-  <hr>
-  <p>My journey began as a **Data Scientist at Lombard Insurance**, providing critical, production-level insight into modeling needs and data quality assurance. This foundational experience inspired a strategic pivot to **Data Engineering**, where I now specialize in building the reliable, scalable cloud infrastructure that underpins advanced analytics. I focus on bridging the gap between complex analytical models and robust, enterprise-ready data systems, ensuring high performance from ingestion to deployment.</p>
-</div>
+---
 
-<div id="contact-section" class="content-section">
-  <h2>📬 Contact & Socials</h2>
-  <hr>
-  <div align="center" style="font-size: 30px;">
-    <a href="https://www.linkedin.com/in/olefile-daniel-ramoitheki" title="LinkedIn" style="color: #0077B5; margin: 0 10px;">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn">
-    </a>
-    <a href="https://github.com/Olefi" title="GitHub" style="color: #181717; margin: 0 10px;">
-      <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub">
-    </a>
-    <a href="mailto:od.ramoitheki@gmail.com" title="Email" style="color: #D14836; margin: 0 10px;">
-      <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Email">
-    </a>
-    <a href="https://drive.google.com/file/d/1a-_pMt0mZDkUJIHqKcsECG6QOwdZWVxw/view?usp=drive_link" title="Resume PDF" style="color: #2ECC71; margin: 0 10px;">
-      <img src="https://img.shields.io/badge/Resume-2ECC71?style=flat&logo=adobeacrobatreader&logoColor=white" alt="Resume">
-    </a>
-    <a href="https://www.facebook.com/your-profile" title="Facebook" style="color: #1877F2; margin: 0 10px;">
-      <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook">
-    </a>
-    <a href="https://www.instagram.com/your-profile" title="Instagram" style="color: #E4405F; margin: 0 10px;">
-      <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram">
-    </a>
-  </div>
+### 3. 🚗 AI Car Inspector (Containerized Deployment)
+**Role:** DevOps & Deployment Specialist | **Tech:** Gradio, Gemini 2.0 Flash, Docker, Kubernetes
+
+> **Description:** An AI-powered application that uses **Google's Gemini 2.0 Flash** to analyze car images and provide detailed information (make, model, year, etc.). It was built with **Gradio**, containerized with **Docker**, and deployed on a **Kubernetes** cluster.
+>
+> **Challenge & Outcome:** Deploying a multi-component AI application onto Kubernetes required detailed YAML configuration and volume mapping. **Outcome:** The application is highly resilient and scalable, demonstrating mastery of enterprise-level **DevOps and AI deployment.**
+
+![AI Car Inspector Screenshot](images/car%20ins.png)
+[**View Code on GitHub**](https://github.com/dev-api-org/ai-app-containerization) | [**Live Demo**](http://54.85.83.99/)
+
+---
+
+<a id="about-me-section"></a>
+## 👋 About Me
+My journey began as a **Data Scientist at Lombard Insurance**, providing critical, production-level insight into modeling needs and data quality assurance. This foundational experience inspired a strategic pivot to **Data Engineering**, where I now specialize in building the reliable, scalable cloud infrastructure that underpins advanced analytics. I focus on bridging the gap between complex analytical models and robust, enterprise-ready data systems, ensuring high performance from ingestion to deployment.
+---
+
+<a id="contact-section"></a>
+## 📬 Contact & Socials
+
+<div align="center" style="font-size: 30px;">
+  <a href="https://www.linkedin.com/in/olefile-daniel-ramoitheki" title="LinkedIn" style="color: #0077B5; margin: 0 10px;">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://github.com/Olefi" title="GitHub" style="color: #181717; margin: 0 10px;">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="mailto:od.ramoitheki@gmail.com" title="Email" style="color: #D14836; margin: 0 10px;">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Email">
+  </a>
+  <a href="https://drive.google.com/file/d/1a-_pMt0mZDkUJIHqKcsECG6QOwdZWVxw/view?usp=drive_link" title="Resume PDF" style="color: #2ECC71; margin: 0 10px;">
+    <img src="https://img.shields.io/badge/Resume-2ECC71?style=flat&logo=adobeacrobatreader&logoColor=white" alt="Resume">
+  </a>
+  <a href="https://www.facebook.com/your-profile" title="Facebook" style="color: #1877F2; margin: 0 10px;">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook">
+  </a>
+  <a href="https://www.instagram.com/your-profile" title="Instagram" style="color: #E4405F; margin: 0 10px;">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram">
+  </a>
 </div>
 
 ---
 *© 2025 Olefile Ramoitheki. Built with GitHub Pages.*
 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const navLinks = document.querySelectorAll('.nav-link');
-    const sections = document.querySelectorAll('.content-section');
+***
 
-    navLinks.forEach(link => {
-      link.addEventListener('click', function(event) {
-        // Prevent default anchor jump behavior
-        event.preventDefault();
+The portfolio looks excellent and meets all requirements now! The only remaining item for your submission is the **Reflection Document**.
 
-        const targetId = this.getAttribute('data-target');
-
-        // 1. Hide all content sections
-        sections.forEach(section => {
-          section.style.display = 'none';
-        });
-
-        // 2. Show the specific target section
-        const targetSection = document.getElementById(targetId);
-        if (targetSection) {
-          targetSection.style.display = 'block';
-          // Scroll to the top of the visible content area
-          window.scrollTo(0, 0); 
-        }
-      });
-    });
-  });
-</script>
+Would you like me to draft the content for the required **`portfolio_reflection.md`** file now?
