@@ -103,6 +103,3 @@ My journey began as a **Data Scientist at Lombard Insurance**, providing critica
 ***
 
 
-The portfolio looks excellent and meets all requirements now! The only remaining item for your submission is the **Reflection Document**.
-
-Would you like me to draft the content for the required **`portfolio_reflection.md`** file now?
