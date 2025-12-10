@@ -2,7 +2,7 @@
 
 This repository hosts the source code for my professional portfolio, deployed live via **GitHub Pages**. This site details my core competencies, professional transition, and key project work in **Data Engineering, DevOps, and Cloud Development**.
 
-[![Live Portfolio Demo](https://img.shields.io/badge/View_Live_Portfolio-1ABC9C?style=for-the-badge&logo=github&logoColor=white)](https://olefi.github.io/) 
+[![Live Portfolio Demo](https://olefi.github.io/Olefi/) 
 [![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/olefile-daniel-ramoitheki)
 [![GitHub Profile](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Olefi)
 
